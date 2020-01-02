@@ -1,0 +1,74 @@
+/* GENRELLE INDSTILLINGER */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+/* MENU */
+
+/* unvisited link */
+header nav a:link {
+    color: #3671f5;
+}
+
+/* visited link */
+header nav a:visited {
+    color: #3671f5;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: #faaae8;
+}
+
+/* selected link */
+header nav a:active {
+    color: #3671f5;
+}
+
+header {
+    background: transparent;
+    width: 100%;
+    position: fixed;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav a {
+    padding: 0 1rem;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width:870px) {
+
+    header nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    header nav a {
+        border-right: 1px solid antiquewhite;
+    }
+
+    header nav a:last-child {
+        border-right: none;
+        padding: 0 1rem;
+    }
+}
