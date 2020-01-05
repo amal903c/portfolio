@@ -1,5 +1,9 @@
 /* GENRELLE INDSTILLINGER */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,11 +13,26 @@ img {
     width: 100%;
 }
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 /* MENU */
+
 
 /* unvisited link */
 header nav a:link {
@@ -22,12 +41,12 @@ header nav a:link {
 
 /* visited link */
 header nav a:visited {
-    color: #3671f5;
+    color: red;
 }
 
 /* mouse over link */
 header nav a:hover {
-    color: #faaae8;
+    color: #3671f5;
 }
 
 /* selected link */
@@ -45,14 +64,14 @@ header {
 header nav {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 header nav a {
     padding: 0 1rem;
     margin: 5px;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-width:870px) {
@@ -72,3 +91,167 @@ header nav a {
         padding: 0 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORSIDE */
+
+/*
+#forside {
+    background-color: #E7C2FF;
+    height: 55vw;
+}
+
+#forside .sectionwrapper {
+    background-color: #f2bfc7;
+    width: 90vw;
+
+
+}
+
+#forside h1 {
+    color: #032CB0;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* web */
+
+
+#web .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#web .col_text {
+    flex-basis: 550px;
+    flex-grow: 1;
+    border-style: solid;
+    margin: 1rem;
+    padding: 1.2rem;
+    line-height: 1.5rem;
+}
+
+#web .col_image {
+    flex-basis: 550px;
+    flex-grow: 1;
+    margin: 1rem;
+}
+
+#web h1 {
+    color: #f51818;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UX */
+
+
+
+#ux .col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#ux .text {
+    flex-basis: 550px;
+    flex-grow: 1;
+    border-style: solid;
+    margin: 1rem;
+    padding: 1.2rem;
+    line-height: 1.5rem;
+
+}
+
+#ux .image {
+    flex-basis: 550px;
+    flex-grow: 1;
+    margin: 1rem;
+}
+
+.image img {
+    max-height: 10vw;
+}
+
+
+#ux h1 {
+    color: #ffe200;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
