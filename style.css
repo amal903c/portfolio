@@ -356,7 +356,8 @@ header nav a {
 
 #animation_body {
     background-image: url(billeder/Artboard%201%20copy%203.svg);
-    background-size: cover;
+    background-repeat: repeat-y;
+
 }
 
 #animation .sectionwrapper {
