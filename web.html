@@ -12,46 +12,57 @@
 <body id="web_body">
 
     <header>
-        <nav>
+        <nav class="nav_web">
             <div class="menu_top" id="myTopnav">
                 <a href="index.html">forside</a>
-                <a href="web.html">web</a>
+                <a href="web.html" class="web_menu">web</a>
                 <a href="ux.html">ux</a>
-                <a href="jagtviden.html">animation</a>
-                <a href="forhandler.html">indhold</a>
+                <a href="animation.html">animation</a>
+                <a href="indhold.html">indhold</a>
+                <a href="cv.html">cv</a>
                 <a id="burgericon">☰</a>
-
             </div>
         </nav>
+
+        <div class="toggle_menu hide">
+            <ul>
+                <li><a href="index.html">forside</a></li>
+                <li><a href="web.html">web</a></li>
+                <li><a href="ux.html">ux</a></li>
+                <li><a href="animation.html">animation</a></li>
+                <li><a href="indhold.html">indhold</a></li>
+                <li><a href="cv.html">cv</a></li>
+            </ul>
+        </div>
     </header>
 
-
     <section id="web">
-
-        <h1>Web</h1>
         <div class="sectionwrapper">
-            <div class="col_text">
-                <h2>Responsive site - "Arts and Crafts"</h2>
+            <h1>Web</h1>
+            <div class="col">
+                <div class="col_text">
+                    <h2>Responsive site - "Arts and Crafts"</h2>
 
-                <br>
+                    <br>
 
-                <p>"Grundlæggende web" var vores første tema på første semester. Her lærte vi sprogene html og css at kende og alt det grundlæggende indenfor disse. Gennem temaet skulle vi løbende udvikle et site om en tildelt stilart. Jeg fik til opgave at lave et site om stilarten "Arts and Crafts". Det var vigtigt at sitet blev gjort responsivt, hvilket betyder at sitet skulle kunne tilpasse sig forskellige skærmstørrelser. Jeg lavede mit site ud fra ’mobile first’ tankegangen, hvilket betød at jeg startede med at udvikle mobilversionen og herefter udviklede sitet til større skærme. Dette gjorde jeg ved hjælp af flexbox og media queries.
-                </p>
+                    <p>"Grundlæggende web" var vores første tema på første semester. Her lærte vi sprogene html og css at kende og alt det grundlæggende indenfor disse. Gennem temaet skulle vi løbende udvikle et site om en tildelt stilart. Jeg fik til opgave at lave et site om stilarten "Arts and Crafts". Det var vigtigt at sitet blev gjort responsivt, hvilket betyder at sitet skulle kunne tilpasse sig forskellige skærmstørrelser. Jeg lavede mit site ud fra ’mobile first’ tankegangen, hvilket betød at jeg startede med at udvikle mobilversionen og herefter udviklede sitet til større skærme. Dette gjorde jeg ved hjælp af flexbox og media queries.
+                    </p>
 
-                <br>
+                    <br>
 
-                <p>Vi blev også introduceret til layoutdiagram og wireframe og fik udleveret to færdiglavede, som vi skulle arbejde ud fra. Dette hjalp mig utrolig meget med at sætte siden op og det gav en god forståelse af ’child’ og ’parent’ elementer. Både layoutdiagram og wireframe har også sidenhen været en stor hjælp til andre opgaver. </p>
+                    <p>Vi blev også introduceret til layoutdiagram og wireframe og fik udleveret to færdiglavede, som vi skulle arbejde ud fra. Dette hjalp mig utrolig meget med at sætte siden op og det gav en god forståelse af ’child’ og ’parent’ elementer. Både layoutdiagram og wireframe har også sidenhen været en stor hjælp til andre opgaver. </p>
 
-                <br>
+                    <br>
 
-                <p>Designdelen af denne opgave bestod blandt andet i at designe et splashbillede og et favicon til sitet. Derudover skulle vi lave et styletile, som er et site hvor alle ens designbeslutninger indgår. Beslutninger såsom brugen af fonte og farver. For at finde frem til disse beslutninger lavede jeg forskellige moodboards. </p>
+                    <p>Designdelen af denne opgave bestod blandt andet i at designe et splashbillede og et favicon til sitet. Derudover skulle vi lave et styletile, som er et site hvor alle ens designbeslutninger indgår. Beslutninger såsom brugen af fonte og farver. For at finde frem til disse beslutninger lavede jeg forskellige moodboards. </p>
 
-                <br>
+                    <br>
 
-                <a href="http://amalielemke.dk/kea/02_web/04_responsive/02_04_01_responsive_site_v2/">Link til site</a>
-            </div>
-            <div class="col_image">
-                <img src="billeder/arts_web.png" alt="Stilartsite webversion">
+                    <a href="http://amalielemke.dk/kea/02_web/04_responsive/02_04_01_responsive_site_v2/">Link til site</a>
+                </div>
+                <div class="col_image">
+                    <img src="billeder/arts_web.png" alt="Stilartsite webversion">
+                </div>
             </div>
         </div>
     </section>
@@ -59,6 +70,7 @@
 
 
 
+    <script src="script.js"></script>
+</body>
 
-    <script src=""></script>
-</body></html>
+</html>

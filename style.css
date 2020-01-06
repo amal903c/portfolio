@@ -18,6 +18,11 @@ img {
     flex-wrap: wrap;
 }
 
+section {
+    max-width: 1200;
+    margin: 0;
+}
+
 
 
 
@@ -60,16 +65,13 @@ header {
     position: fixed;
 }
 
-
 header nav a {
     padding: 0;
-    margin: 3rem;
+    margin: 3rem 3rem 0 3rem;
 
     text-decoration: none;
     font-size: 1.5rem;
-
 }
-
 
 #burgericon {
     display: none;
@@ -96,6 +98,15 @@ header nav a {
         display: block;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 /* Togglemenu */
@@ -225,31 +236,35 @@ header nav a {
 /* web */
 
 #web_body {
-    background-image: url(billeder/Artboard%201%20copy%203.svg);
-    background-size: cover;
+    background-color: #EDEDED;
 }
 
-
 #web .sectionwrapper {
-    background-color: #EDEDED;
+    padding-top: 126px;
+}
+
+#web .col {
     display: flex;
     flex-wrap: wrap;
-    margin: 5.5rem 2rem 5.5rem 2rem;
+    margin: 37px;
     border-style: solid;
+    border-width: 1px;
+
 }
 
 #web .col_text {
     flex-basis: 550px;
     flex-grow: 1;
-    margin: 1rem;
-    padding: 1.2rem;
-    line-height: 1.5rem;
+    margin: 1px;
+    padding: 30px;
+    line-height: 1.6rem;
+    font-size: 1.05rem;
 }
 
 #web .col_image {
     flex-basis: 550px;
     flex-grow: 1;
-    margin: 1rem;
+    margin: 1px;
     justify-content: center;
 }
 
@@ -257,14 +272,12 @@ header nav a {
     color: #f51818;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin: 3rem 1.5rem 1.5rem 3rem;
+    margin: 0 0 0 37px;
 }
 
-
-
-
-
-
+.nav_web {
+    background: #EDEDED;
+}
 
 
 
@@ -284,6 +297,11 @@ header nav a {
 /* UX */
 
 
+#ux_body {
+    background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: cover;
+}
+
 
 #ux .col {
     display: flex;
@@ -298,6 +316,7 @@ header nav a {
     margin: 1rem;
     padding: 1.2rem;
     line-height: 1.5rem;
+    background-color: #EDEDED;
 
 }
 
@@ -307,19 +326,72 @@ header nav a {
     margin: 1rem;
 }
 
-.image img {
-    max-height: 10vw;
-}
-
 
 #ux h1 {
-    color: #ffe200;
+    color: #f51818;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin: 1.5rem;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+
+
+#animation_body {
+    background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: cover;
+}
+
+#animation .sectionwrapper {
+    padding-top: 126px;
+}
+
+#animation .col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 37px;
+}
+
+#animation .col_text {
+    flex-basis: 450px;
+    flex-grow: 1;
+    border-style: solid;
+    padding: 1.2rem;
+    margin: 20px;
+    line-height: 1.5rem;
+    background-color: #EDEDED;
+
+}
+
+#animation .col_image {
+    flex-basis: 650px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#animation h1 {
+    color: #f51818;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 0 37px;
+}
 
 
 
