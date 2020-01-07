@@ -597,8 +597,33 @@ header nav a {
 }
 
 
-#indhold #video_pilot {
-    object-fit: cover;
+/* Knap til site */
+
+.site_button {
+    width: 25vw;
+    height: 2.8vw;
+    background-color: #957E75;
+    margin: 0.3rem;
+}
+
+.site_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+.dokumentation_button {
+    width: 25vw;
+    height: 2.8vw;
+    background-color: #A2A8B4;
+    margin: 0.3rem;
+}
+
+.dokumentation_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
 }
 
 
