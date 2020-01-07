@@ -243,7 +243,9 @@ header nav a {
 /* web */
 
 #web_body {
-    background-color: #EDEDED;
+    background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
 
 #web .sectionwrapper {
@@ -253,44 +255,71 @@ header nav a {
 #web .col {
     display: flex;
     flex-wrap: wrap;
-    margin: 37px;
-    border-style: solid;
-    border-width: 1px;
-
+    margin: 40px;
 }
 
 #web .col_text {
-    flex-basis: 550px;
+    flex-basis: 450px;
     flex-grow: 1;
-    margin: 1px;
-    padding: 30px;
+    margin: 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    border-style: solid;
+    border-width: 1px;
+    background-color: #EDEDED;
 }
 
 #web .col_image {
-    flex-basis: 550px;
+    flex-basis: 650px;
     flex-grow: 1;
-    margin: 1px;
-
-    background-image: url(billeder/mac_uden.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    margin: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
-#web iframe {
-    position: absolute;
-    top: 16.5vw;
-    left: 52vw;
-}
+
 
 #web h1 {
-    color: #f51818;
+    color: #000000;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin: 0 0 0 37px;
+    margin: 0 0 0 56px;
 }
 
 .nav_web {
     background: #EDEDED;
+}
+
+
+/* Knap til site */
+
+.art_button {
+    width: 25vw;
+    height: 2.8vw;
+    margin: 0.3rem;
+    background-color: #8C2034;
+}
+
+.art_button a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Knap til styletile */
+
+.styletile_button {
+    width: 25vw;
+    height: 2.8vw;
+    margin: 0.3rem;
+    background-color: #D9B18F;
+}
+
+.styletile_button a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+
 }
 
 
@@ -371,8 +400,6 @@ header nav a {
     background-image: url(billeder/Artboard%201%20copy%203.svg);
     background-size: 100%;
     background-repeat: repeat-y;
-
-
 }
 
 #animation .sectionwrapper {
@@ -393,7 +420,6 @@ header nav a {
     padding: 1.5rem 30rem 1.5rem 2rem;
     margin: 20px;
     background-color: #EDEDED;
-
 }
 
 #animation .col_image {
