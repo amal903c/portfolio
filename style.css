@@ -249,7 +249,7 @@ header nav a {
 }
 
 #web .sectionwrapper {
-    padding-top: 126px;
+    padding-top: 150px;
 }
 
 #web .col {
@@ -282,7 +282,7 @@ header nav a {
 #web h1 {
     color: #000000;
     font-size: 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
     margin: 0 0 0 56px;
 }
 
@@ -382,7 +382,7 @@ header nav a {
 #ux h1 {
     color: #000000;
     font-size: 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
     margin: 0 0 0 56px;
 }
 
@@ -435,7 +435,7 @@ header nav a {
 }
 
 #animation .sectionwrapper {
-    padding-top: 126px;
+    padding-top: 150px;
 }
 
 #animation .col {
@@ -465,7 +465,7 @@ header nav a {
 #animation h1 {
     color: #000000;
     font-size: 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
     margin: 0 0 0 56px;
 }
 
@@ -564,7 +564,7 @@ header nav a {
 }
 
 #indhold .sectionwrapper {
-    padding-top: 126px;
+    padding-top: 150px;
 }
 
 #indhold .col {
@@ -592,7 +592,7 @@ header nav a {
 #indhold h1 {
     color: 000000;
     font-size: 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
     margin: 0 0 0 56px;
 }
 
@@ -625,6 +625,82 @@ header nav a {
     text-decoration: none;
     font-size: 1.1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CV */
+
+#cv_body {
+    background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+#cv .sectionwrapper {
+    padding-top: 150px;
+}
+
+#cv .col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+#cv .col_text {
+    flex-basis: 550px;
+    flex-grow: 1;
+}
+
+#cv .om_mig {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #EDEDED;
+    margin: 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+#cv .cv_box {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #EDEDED;
+    margin: 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+#cv .col_image {
+    flex-basis: 550px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#cv h1 {
+    color: 000000;
+    font-size: 2rem;
+    font-family: 'Tinos', serif;
+    margin: 0 0 0 56px;
+}
+
+
+
+
+
 
 
 
