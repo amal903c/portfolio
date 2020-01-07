@@ -23,7 +23,15 @@ section {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Tinos', serif;
+    font-size: 1.4rem;
+}
 
+p {
+    font-family: 'Tinos', serif;
+    line-height: 1.7rem;
+}
 
 
 
@@ -195,7 +203,6 @@ header nav a {
 }
 
 
-
 #forside h1 {
     font-family: 'Lekton', sans-serif;
     font-size: 8rem;
@@ -257,15 +264,22 @@ header nav a {
     flex-grow: 1;
     margin: 1px;
     padding: 30px;
-    line-height: 1.6rem;
-    font-size: 1.05rem;
 }
 
 #web .col_image {
     flex-basis: 550px;
     flex-grow: 1;
     margin: 1px;
-    justify-content: center;
+
+    background-image: url(billeder/mac_uden.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#web iframe {
+    position: absolute;
+    top: 16.5vw;
+    left: 52vw;
 }
 
 #web h1 {
@@ -315,7 +329,6 @@ header nav a {
     border-style: solid;
     margin: 1rem;
     padding: 1.2rem;
-    line-height: 1.5rem;
     background-color: #EDEDED;
 
 }
@@ -356,7 +369,9 @@ header nav a {
 
 #animation_body {
     background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: 100%;
     background-repeat: repeat-y;
+
 
 }
 
@@ -367,16 +382,16 @@ header nav a {
 #animation .col {
     display: flex;
     flex-wrap: wrap;
-    margin: 37px;
+    margin: 40px;
 }
 
 #animation .col_text {
     flex-basis: 450px;
     flex-grow: 1;
     border-style: solid;
-    padding: 1.2rem;
+    border-width: 1px;
+    padding: 1.5rem 30rem 1.5rem 2rem;
     margin: 20px;
-    line-height: 1.5rem;
     background-color: #EDEDED;
 
 }
@@ -387,13 +402,72 @@ header nav a {
     margin: 20px;
 }
 
+
+
 #animation h1 {
-    color: #f51818;
+    color: #000000;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin: 0 0 0 37px;
+    margin: 0 0 0 56px;
 }
 
+
+/* Eget spil knapper */
+.farm_spil_button {
+    width: 25vw;
+    height: 2.8vw;
+    margin: 0.3rem;
+    background-color: #75B36F;
+    align-content: center;
+}
+
+.farm_spil_button a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+.farm_asset_button {
+    width: 25vw;
+    height: 2.8vw;
+    margin: 0.3rem;
+    background-color: #5C95C1;
+}
+
+.farm_asset_button a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+/* Privat spil knapper */
+.privat_spil_button {
+    width: 25vw;
+    height: 2.8vw;
+    background-color: #F28F38;
+    margin: 0.3rem;
+}
+
+.privat_spil_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.privat_asset_button {
+    width: 25vw;
+    height: 2.8vw;
+    background-color: #62A1D9;
+    margin: 0.3rem;
+}
+
+.privat_asset_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
 
 
 
