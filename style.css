@@ -542,4 +542,73 @@ header nav a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Indhold */
+
+#indhold_body {
+    background-image: url(billeder/Artboard%201%20copy%203.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+#indhold .sectionwrapper {
+    padding-top: 126px;
+}
+
+#indhold .col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+#indhold .col_text {
+    flex-basis: 450px;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    margin: 20px;
+    background-color: #EDEDED;
+}
+
+#indhold .col_image {
+    flex-basis: 650px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#indhold h1 {
+    color: 000000;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 0 56px;
+}
+
+
+#indhold #video_pilot {
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
 .
