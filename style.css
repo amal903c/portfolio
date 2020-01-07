@@ -342,38 +342,70 @@ header nav a {
 
 #ux_body {
     background-image: url(billeder/Artboard%201%20copy%203.svg);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+#ux .sectionwrapper {
+    padding-top: 150px;
 }
 
 
 #ux .col {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 40px;
 }
 
-#ux .text {
-    flex-basis: 550px;
+#ux .col_text {
+    flex-basis: 450px;
     flex-grow: 1;
     border-style: solid;
-    margin: 1rem;
-    padding: 1.2rem;
-    background-color: #EDEDED;
+    margin: 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
 
+    border-style: solid;
+    border-width: 1px;
+    background-color: #EDEDED;
 }
 
-#ux .image {
-    flex-basis: 550px;
+
+#ux .col_image {
+    flex-basis: 650px;
     flex-grow: 1;
-    margin: 1rem;
+    margin: 20px;
+    padding-top: 0;
+    padding-left: 30px;
 }
 
 
 #ux h1 {
-    color: #f51818;
+    color: #000000;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
+    margin: 0 0 0 56px;
 }
+
+
+/* Knap UX */
+
+.proto_button {
+    width: 25vw;
+    height: 2.8vw;
+    margin: 0.3rem;
+    background-color: #FFFCB4;
+}
+
+.proto_button a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+
+
+
+
+
 
 
 
@@ -444,7 +476,6 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #75B36F;
-    align-content: center;
 }
 
 .farm_spil_button a {
