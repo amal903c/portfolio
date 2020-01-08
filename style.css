@@ -322,9 +322,6 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #8C2034;
-}
-
-.art_button a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
@@ -337,14 +334,11 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #D9B18F;
-}
-
-.styletile_button a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
-
 }
+
 
 
 /* Media Q */
@@ -450,13 +444,11 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #FFFCB4;
-}
-
-.proto_button a {
     text-decoration: none;
     font-size: 1rem;
     color: black;
 }
+
 
 
 .data_button {
@@ -464,9 +456,6 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: red;
-}
-
-.data_button a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
@@ -569,13 +558,11 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #75B36F;
-}
-
-.farm_spil_button a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
 }
+
 
 
 .farm_asset_button {
@@ -583,13 +570,12 @@ header nav a {
     height: 2.8vw;
     margin: 0.3rem;
     background-color: #5C95C1;
-}
-
-.farm_asset_button a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
 }
+
+
 
 
 /* Privat spil knapper */
@@ -598,9 +584,6 @@ header nav a {
     height: 2.8vw;
     background-color: #F28F38;
     margin: 0.3rem;
-}
-
-.privat_spil_button a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -611,14 +594,10 @@ header nav a {
     height: 2.8vw;
     background-color: #62A1D9;
     margin: 0.3rem;
-}
-
-.privat_asset_button a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
 }
-
 
 /* Media Q */
 
@@ -747,9 +726,6 @@ header nav a {
     height: 2.8vw;
     background-color: #957E75;
     margin: 0.3rem;
-}
-
-.site_button a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -761,9 +737,6 @@ header nav a {
     height: 2.8vw;
     background-color: #A2A8B4;
     margin: 0.3rem;
-}
-
-.dokumentation_button a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
